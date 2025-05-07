@@ -1,0 +1,51 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5;
+}
+h1{
+    text-align: center;
+    color:#333;
+}
+form{
+    width:700px;
+    background-color: rgb(241, 46, 134);
+    margin:0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(4, 91, 27);
+}
+input[type="text"],
+input[type="phonenumber"]
+{
+    width: 90%;
+    padding:10px;
+    margin:10px;
+    border:1px solid #1e236b;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="text"],
+input[type="password"]
+{
+    width: 90%;
+    padding:10px;
+    margin:5px;
+    border:1px solid #f2c306;
+    border-radius: 5px;
+    font-size: 16px;
+}
+input[type="submit"],
+input[type="reset"]
+{
+background-color: #26a2bd;
+padding:20px;
+border-radius: 20%;
+
+}
+.error-message{
+    color:red;
+    font-size:14px;
+
+}
